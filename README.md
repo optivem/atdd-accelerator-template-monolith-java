@@ -1,5 +1,7 @@
 # ATDD Accelerator Template - Monolith (Java)
 
+[![commit-stage-monolith-java](https://github.com/optivem/atdd-accelerator-template-monolith-java/actions/workflows/commit-stage-monolith-java.yml/badge.svg)](https://github.com/optivem/atdd-accelerator-template-monolith-java/actions/workflows/commit-stage-monolith-java.yml)
+
 This is a sample monolithic application written in Java.
 
 ## Instructions
