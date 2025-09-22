@@ -3,24 +3,14 @@ name: commit-stage-monolith-java
 on:
   push:
     branches: [ "main" ]
-    paths:
-        - 'system/monolith/java/**'
-        - '.github/workflows/commit-stage-monolith-java.yml'
   pull_request:
     branches: [ "main" ]
-    paths:
-        - 'system/monolith/java/**'
-        - '.github/workflows/commit-stage-monolith-java.yml'
   workflow_dispatch:
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: system/monolith/java
 
     permissions:
       contents: read
